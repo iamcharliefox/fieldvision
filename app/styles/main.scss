@@ -190,7 +190,13 @@ section.fv-video {
     @media (min-width: $bp) {
       font-size: 24px;
     }       
-  }  
+  } 
+
+  .drawer {
+    &.hidden {
+      display: none;
+    }
+  }
 
   p {
     font-size: 18px;
